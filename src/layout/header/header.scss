@@ -1,0 +1,43 @@
+@import '@styles/color';
+
+.header {
+  display: flex;
+  background-color: $white;
+  justify-content: space-between;
+  -webkit-box-shadow: 0 3px 5px $box-shadow-header;
+  -moz-box-shadow: 0 3px 5px $box-shadow-header;
+  box-shadow: 0 3px 5px $box-shadow-header;
+
+  .logo {
+    position: relative;
+
+    &:after {
+      content: '';
+      position: absolute;
+      width: 2px;
+      height: 100%;
+      background-color: $box-shadow-header;
+      top: 0;
+      right: -20px;
+    }
+  }
+
+  .logo h4 {
+    color: $black;
+  }
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  &--list {
+    padding: 0 8px;
+
+    a {
+      color: $white;
+      font-weight: 500;
+    }
+  }
+}

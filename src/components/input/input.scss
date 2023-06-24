@@ -1,0 +1,23 @@
+@import '@styles/color';
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  label {
+    color: $text-color-primary;
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .input {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 8px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

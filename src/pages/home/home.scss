@@ -1,0 +1,35 @@
+@import '@styles/color';
+
+.homepage {
+  padding-top: 8rem;
+  margin: 0 50px;
+
+  &-title {
+    h2 {
+      font-size: 2rem;
+    }
+
+    .content {
+      color: $text-color-primary;
+    }
+  }
+
+  .button-wrapper {
+    &--start,
+    &--docs {
+      padding: 0.8rem 2rem;
+    }
+
+    &--start {
+      margin-right: 16px;
+      color: $white;
+    }
+  }
+
+  .note {
+    span {
+      color: $text-color-primary;
+      font-size: 12px;
+    }
+  }
+}

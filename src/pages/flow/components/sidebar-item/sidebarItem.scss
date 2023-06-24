@@ -1,0 +1,19 @@
+@import '@styles/color';
+
+.dnd-node {
+  border-radius: 8px;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 400;
+
+  &:hover {
+    background-color: rgba(216, 171, 112, 0.199);
+  }
+}
+
+.input {
+  border-color: rgba(0, 0, 0, 0.425);
+}

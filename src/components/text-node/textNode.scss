@@ -1,0 +1,70 @@
+@import '@styles/color';
+
+.node-container {
+  background-color: white;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  border-radius: 15px;
+  width: 80px;
+  height: 100px;
+
+  .node-header {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 12px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .node-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 8px;
+
+    .icon-node-footer {
+      font-size: 6px;
+      color: #2E86C1;
+      padding-right: 3px;
+
+    }
+
+    .target {
+
+      padding-left: 8px;
+    }
+
+    .percent {
+      padding-right: 8px;
+
+    }
+  }
+
+  .node-icon {
+    height: 100%;
+    width: 100%;
+    flex: 3;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+
+    .icon {
+      position: absolute;
+      top: 27%;
+
+    }
+  }
+
+  .node-header--database {
+    background-color: #4CBB17;
+    color: $white;
+  }
+
+  .node-header--backend {
+    background-color: #FF7F50;
+    color: $white;
+  }
+}

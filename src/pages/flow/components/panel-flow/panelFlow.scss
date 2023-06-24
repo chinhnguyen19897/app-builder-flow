@@ -1,0 +1,6 @@
+@import '@styles/variables';
+
+.reactflow-wrapper {
+  flex-grow: 1;
+  height: calc(100vh - $height-header);
+}
